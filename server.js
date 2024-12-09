@@ -22,8 +22,8 @@ const pool = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
   port: 3306,
-  user: 'root',
-  password: '',
+  user: username, //replace this with your username
+  password:password, // replace this with your password
   database: 'mysql',
   insecureAuth: true,
 });
